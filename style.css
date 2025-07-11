@@ -1,0 +1,320 @@
+
+.boddy raleway-dots-regular {
+  font-family: "Raleway Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;	
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+     background-image:url(image/Hero-bg.png);
+	 width: 100%;
+	 
+	 
+
+}
+.n{
+	display: flex;
+	justify-content: space-between;
+	padding: 95px;
+	padding-top: 60px;
+	font-size: 23px;
+
+
+}
+.logo{
+	color: blue;
+	font-weight: bold;
+	
+}
+button{
+	background-color: blue;
+	border: none;
+	border-radius: 7px;
+	padding:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	box-shadow: 0 4px 12px rgba(63, 61, 61, 0.05);
+	transition: transform 0.2s ease;
+
+}
+
+
+button:hover {
+
+  transform: translateY(-3px);
+  background-color: #fbbf24;
+  color: #1c1c36;
+  cursor: pointer;
+
+}
+
+
+
+
+.box{
+	display: flex;
+
+    flex-direction: column;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	padding: 40px 20px;
+	gap: 20px;
+  	
+
+	
+}
+
+
+
+
+
+
+
+.c{
+	font-size: 55px;
+}
+.action{
+	display: flex;
+	width: 100%;
+	background-color:#f5f8ff;
+	justify-content:space-between;
+	padding: 10px;
+	
+}
+.font1{
+	padding-bottom: 15px;
+}
+.font2{
+	font-size: 14px;
+	font-weight: 200;
+	padding-bottom: 10px;
+}
+
+.f-button{
+	width: fit-content;
+	margin-left: 600px;
+}
+
+.button2{
+padding: 3px 2px;
+box-shadow: 0 4px 12px rgba(63, 61, 61, 0.05);
+
+
+
+}
+.action1{
+	justify-self: center;
+	padding-left: 50px;
+	padding-top: 100px;
+}
+.action2 img{
+        border-radius: 10%;
+    width: 300px;
+	
+}
+.action2 {
+	padding-right:200 px;
+	padding: 50px;
+}
+.userbox{
+	background-color: #e5e7ff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 1%;
+	margin:70px;
+	height: 250px;
+	
+}
+.user{
+	background-color: #f5f8ff;
+	width: 100%;
+	height: auto;
+	padding: 60px;
+	
+}
+.fb{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	color: rgb(59, 86, 182);
+	box-shadow: 0 4px 12px rgba(63, 61, 61, 0.05);
+	
+
+}
+.fb span h1{
+	
+	font-size: xxx-large;
+	
+}
+.s{
+	font-size: xx-large;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.fullbody{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+	
+}
+
+.contact{
+	display: flex;
+	width: 80%;
+	max-width: 900px;
+	height: 500px;
+	padding: 40px;
+	
+
+	background-color: #f5f8ff;
+}
+.left{
+	padding-right: 50px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.left h1{
+	font-size: xxx-large;
+}
+.right{
+	flex: 1;
+}
+.o{
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+}
+.o input{
+	padding: 12px;
+	margin-bottom: 20px;
+	border:3px  rgb(230, 235, 228);
+}
+.message{
+	height: 90px;
+}
+.bt{
+	padding: 10px;
+	box-shadow: 0 4px 12px rgba(63, 61, 61, 0.05);
+}
+.last{
+	width: 100%;
+	max-width: 1300px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f5f8ff;
+    padding-bottom: 70px;
+	padding-top: 50px;
+}
+.logo1{
+	font-size:90px;
+	padding-bottom: 30px;
+	color:rgb(59, 86, 182) ;
+	
+}
+.last1{
+	padding-bottom: 20px;
+}
+.last3{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+
+.review-sec{
+	
+ 	 padding: 40px 20px;
+  	text-align: center;
+
+}
+
+.r-title{
+ 	 font-size: 35px;
+ 	 font-weight: bold;
+  	margin-bottom: 40px;
+}
+.cards{
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	gap: 25px;
+}
+
+.card{
+
+  	padding: 20px;
+
+  	width: 300px;
+
+ 	 border-radius: 10px;
+ 	box-shadow: 0 4px 12px rgba(63, 61, 61, 0.05);
+  	text-align: left;
+  	
+
+}
+
+.stars {
+  color: #fbbf24;
+    font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+   font-size: 18px;
+  font-weight: 600;
+}
+
+.card p {
+   font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+
+.r {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.r img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.inf {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.name {
+  font-weight: 600;
+  color: #1c1c36;
+}
+
+.date {
+  color: #b1a4a4;
+}
+
+
